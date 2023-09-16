@@ -1,4 +1,8 @@
 Encrypt.py V-1.0.0
+IM NOT RESPONISBLE FOR ANY DAMGES THAT MAY ACURE FROM RUNNING THIS SCRIPT
+
+Also please feel free to fix my code like PLEASE I dont do projects like this that often.
+
 Arguments are not nessisary to run the scrypt but you will be asked to awnser a few nessisary questions.
 
 

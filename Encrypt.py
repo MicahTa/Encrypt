@@ -4,8 +4,13 @@ import sys
 if '--help' in sys.argv:
     print ('''
     Encrypt.py V-1.0.0
-    Arguments are not nessisary to run the scrypt but you will be asked to awnser a few nessisary questions.
 
+    IM NOT RESPONISBLE FOR ANY DAMGES THAT MAY ACURE FROM RUNNING THIS SCRIPT
+
+    Also please feel free to fix my code like PLEASE I dont do projects like this that often.
+
+
+    Arguments are not nessisary to run the scrypt but you will be asked to awnser a few nessisary questions.
 
     The arguments include
 
@@ -54,12 +59,14 @@ if '--help' in sys.argv:
     ''')
     exit()
 
+# Add nesisary arguments 
 import os
 from Crypto.Cipher import AES
 from Crypto.Protocol.KDF import PBKDF2
 from hashlib import sha256  # Import the SHA-256 hash module
 import hmac
 
+# define defult settings
 exit_on_improper = False
 if '-EOI' in sys.argv:
     exit_on_improper = True
